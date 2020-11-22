@@ -1,0 +1,29 @@
+table, th, td {
+    border-collapse: collapse;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.columna1 {
+    width: 100px;
+    text-align: center;
+}
+.columna2 {
+    width: 310px;
+}
+.mida {
+    height: 60px;
+    width: 60px;
+}
+.fila1 {
+    height: 80px;
+}
+.subycol {
+    color: mediumblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.subycol2 {
+    color: mediumblue;
+    text-decoration: underline;
+}

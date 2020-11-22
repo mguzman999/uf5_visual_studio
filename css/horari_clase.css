@@ -1,0 +1,65 @@
+table, td {
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+td {
+    width: 120px;
+}
+tr {
+    height: 70px;
+}
+.bckgm04 {
+    background-color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.bckgm08 {
+    background-color: cyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.bckgm10 {
+    background-color: forestgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.bckgm07 {
+    background-color: royalblue;
+    font-family: cursive;
+    font-size: 18px;
+}
+.bckgm06 {
+    background-color: pink;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+.bckgtut {
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.bckghor {
+    background-color: rgb(189, 189, 189);
+    width: 50px;
+    text-align: center;
+    font-family: fantasy;
+    border-right-width: 3px;
+}
+#patio {
+    font-size: 30px;
+    font-weight: bold;
+}
+.pequeysub {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: bold;
+}
+#patioalinear {
+    text-align: center;
+    font-family: monospace;
+}
+.cursiva {
+    font-style:oblique ;
+}

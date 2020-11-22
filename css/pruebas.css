@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(255, 174, 0);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+h1 {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+b {
+    color:crimson;
+}
+/* class va con un "." */
+.limon {
+    color: white;
+}
+/* el id va con un "#" */
+#id58 {
+    color: palevioletred;
+    font-size: 24px;
+}
+img {
+    width: 500px;
+    height: 300px;
+}
+
+/* css para tabla */
+table, th, td{
+    border-color: darkmagenta;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse; /*para eliminar doble linia*/
+}
+td {
+    color:blue;
+}
+th {
+    background-color: chartreuse;
+}
+
+#rojoid {
+    color: red;
+}
