@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/formularios.css"/>
+    </head>
+    <body>
+        <h1>Contacta con nosotros</h1>
+        <form>
+            <fieldset>
+                <legend>Informacion</legend>
+                <label>Pon tu nombre:</label>
+                <input type="text" value="" placeholder="Escribe tu nombre" />
+                <br/> <br/>
+                <label>Pon tu edad:</label>
+                <input type="number" value="" placeholder="Escoge tu edad" />
+                <br/> <br/>
+                <label>Pon tu email:</label>
+                <input type="email" value="" placeholder="Escribe tu email" />
+            </fieldset>
+            <fieldset>
+                <legend>Aficiones</legend>
+                <label>Que deporte te gusta mas:</label>
+                <input type="radio" value="a" name="aficiones" /> Hockey
+                <input type="radio" value="b" name="aficiones" /> Boxeo
+                <input type="radio" value="c" name="aficiones" /> Padel
+                <input type="radio" value="d" name="aficiones" /> Futbol
+                <br/> <br/>
+                <label>Donde te gustaria viajar:</label>
+                <input type="checkbox" value="a" name="paises[]" /> Rusia
+                <input type="checkbox" value="b" name="paises[]" /> Paises Bajos
+                <input type="checkbox" value="c" name="paises[]" /> RD
+                <input type="checkbox" value="d" name="paises[]" /> Suiza
+                <br/> <br/>
+                <label>Juegos de PC que te gustan:</label>
+                <select name="n_select">
+                    <option>Minecraft</option>
+                    <option>DOOM</option>
+                    <option>GTA V</option>
+                    <option>Watch Dogs 2</option>
+                </select>
+                <br/> <br/>
+                <label>Juegos de PC que te gustan:</label>
+                <select multiple="" name="n_multiselect">
+                    <option>Minecraft</option>
+                    <option>DOOM</option>
+                    <option>GTA V</option>
+                    <option>Watch Dogs 2</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

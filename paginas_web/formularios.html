@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulari</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/formularios.css"/>
+    </head>
+    <body>
+        <h1>Curriculum</h1>
+        <form action="form.html" method="post" enctype="multipart/form-data">
+        <fieldset id="fs0">
+            <fieldset id="fs1">
+                <legend id="leginfobas">Información Basica</legend>
+                <label class="infobasic">Nombre:</label> <br/>
+                <input type="text" name="n_nombre" placeholder="Escribe tu nombre"/>
+                <br/> <br/>
+                <label class="infobasic">Altura en centimetros:</label> <br/>
+                <input type="number" name="n_altura" placeholder="ex. 179"/>
+                <br/> <br/>
+                <label class="infobasic">Email:</label> <br/>
+                <input type="email" name="n_email" placeholder="tuemail@dominio.com"/>
+                <br/> <br/>
+                <label class="infobasic">Fecha de Nacimiento:</label> <br/>
+                <input type="date" name="n_fechaNa"/>
+            </fieldset>
+            <br/>
+            <fieldset id="fs2">
+                <legend id="legnac">Nacionalidad</legend>
+                <input type="radio" value="a" name="nacionalidad"/>Española
+                <input type="radio" value="b" name="nacionalidad"/>Comunitario(UE)
+                <input type="radio" value="c" name="nacionalidad"/>No Comunitario
+            </fieldset>
+            <br/>
+            <fieldset id="fs3">
+                <legend>Estudios</legend>
+                <select name="n_estudios">
+                    <option>GM</option>
+                    <option>GS</option>
+                    <option>ESO</option>
+                    <option>PFI</option>
+                    <option>Bachillerato</option>
+                </select>
+            </fieldset>
+            <br/>
+            <fieldset id="fs4">
+                <legend id="legidi">Idiomas</legend>
+                <input type="checkbox" value="a" name="idiomas[]"/>Catalán
+                <input type="checkbox" value="b" name="idiomas[]"/>Castellano
+                <input type="checkbox" value="c" name="idiomas[]"/>Ingles
+                <input type="checkbox" value="d" name="idiomas[]"/>Chino
+            </fieldset>
+            <br/>
+            <fieldset id="fs5">
+                <input type="submit" name="n_enviar" value="Enviar"/>
+                <input type="reset" name="n_cancelar" value="Cancelar"/>
+            </fieldset>
+        </fieldset>
+        </form>
+        <p><img src="../imagenes/formulariook.PNG" alt="Imagen del formulario validada"/></p>
+    </body>
+</html>
