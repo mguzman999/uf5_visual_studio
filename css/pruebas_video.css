@@ -1,0 +1,45 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/lobster.ttf);
+}
+
+#vidbird {
+    width: 400px;
+    height: 220px;
+}
+
+#vidlion {
+    width: 500px;
+    height: 320px;
+}
+
+h2 {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+li {
+    font-family: lobster;
+}
+
+iframe {
+    border: none;
+}
+
+h2:hover, h1:hover{
+    color: yellow;
+    background-color: blue;
+    /*font-size: 50px;*/
+}
+
+a:link {
+    color: red;
+
+}
+
+a:visited {
+    color: purple;
+}

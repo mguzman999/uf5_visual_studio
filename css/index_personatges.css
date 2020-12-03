@@ -1,0 +1,112 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/lobster.ttf);
+}
+
+table, td {
+    border-collapse: collapse;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+}
+
+table {
+    height: 100%;
+    width: 50%;
+}
+
+td  {
+    width: 50%;
+}
+
+h1, h2 {
+    font-family: lobster;
+}
+
+img {
+    width: 250px;
+    height: 300px;
+}
+.tdimg {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tddescrip {
+    background-color: blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#font_homer {
+    font-family: 'Pridi', serif;
+    font-size: 14px;
+}
+
+#font_marge {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+}
+
+#font_bart {
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+#font_maggie {
+    font-family: 'Pacifico', cursive;
+}
+
+#vidmaggie {
+    width: 600px;
+    height: 400px;
+    margin-left: 20%;
+}
+
+iframe {
+    margin-left: 20%;
+    border: none;
+}
+
+#imgbart {
+    width: 400px;
+    height: 300px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:active {
+    color: green;
+}
+
+.hover_index:hover {
+    color: white;
+    background-color: rgb(77, 0, 0);
+    font-size: 20px;
+}
+
+h1:hover{
+    color: yellow;
+    background-color: blue;
+    font-size: 40px;
+}
+
+h2:hover {
+    color: red;
+    background-color: yellow;
+    font-size: 30px;
+}
+
+#img_val {
+    width: auto;
+    height: auto;
+}
