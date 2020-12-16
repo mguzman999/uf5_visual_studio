@@ -1,0 +1,112 @@
+.cuadro1 {
+    background-color: green;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cuadro2 {
+    background-color: indigo;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+
+.cuadro3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.cuadro4 {
+    background-color: blue;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.cuadro5 {
+    background-color: rosybrown;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.cuadro6 {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.cuadro7 {
+    background-color: salmon;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+.cuadro8 {
+    background-color: seagreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+.cuadro9 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+}
+
+.cuadro10 {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.cuadro11 {
+    background-color: slategray;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+}
+
+.cuadro12 {
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+
+p {
+    position: absolute;
+    top: 600px;
+}

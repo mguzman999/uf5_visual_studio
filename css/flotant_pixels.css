@@ -1,0 +1,88 @@
+#imatge {
+    width: 600px;
+    height: 600px;
+}
+
+.cuadro1 {
+    background-color: green;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.cuadro2 {
+    background-color: indigo;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+.cuadro3 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.cuadro4 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.cuadro5 {
+    background-color: rosybrown;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+.cuadro6 {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+.cuadro7 {
+    background-color: salmon;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.cuadro8 {
+    background-color: seagreen;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.cuadro9 {
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+    float: left;
+}
+
+.cuadro10 {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.cuadro11 {
+    background-color: slategray;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.cuadro12 {
+    background-color: gold;
+    width: 200px;
+    height: 100px;
+    float: right;
+}
