@@ -1,0 +1,118 @@
+@font-face {
+    font-family: lobster;
+    src: url(../fonts/lobster.ttf);
+}
+
+#cabecera {
+    background-color: brown;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+#logo {
+    width: 200px;
+    height: 160px;
+    position: relative;
+    top: -45px;
+    left: 85px;
+}
+
+#titulo {
+    font-size: 50px;
+    font-family: lobster;
+    position: relative;
+    top: 90px;
+    left: 380px;
+    width: 600px;
+}
+
+#lateralizq {
+    background-color: darkblue;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+h2 {
+    color: turquoise;
+    padding-left: 25px;
+}
+
+ul {
+    padding-top: 0px;
+}
+
+ul > li {
+    list-style-type: circle;
+    color: red;
+}
+
+li > a {
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+a:hover {
+    background-color: yellow;
+    font-size: 20px;
+    color: black;
+}
+
+a:active {
+    color: skyblue;
+}
+
+#centro {
+    background-color: burlywood;
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+#texto_centro {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-family: 'Langar', cursive;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#lateralder {
+    background-color: black;
+    width: 20%;
+    height: 500px;
+    float: right;
+}
+
+#banner {
+    width: 180px;
+    height: 400px;
+    padding-left: 110px;
+    padding-top: 45px;
+}
+
+#piepagina {
+    background-color: grey;
+    width: 100%;
+    height: 178px;
+    float: left;
+}
+
+#gif_dedsec {
+    width: 200px;
+    height: 125px;
+    position: relative;
+    left: 850px;
+}
+
+#piepagina > p {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
