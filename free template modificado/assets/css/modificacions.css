@@ -1,0 +1,19 @@
+.modif1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8em;
+    color: cyan;
+    letter-spacing: 0.4em;
+}
+
+#modif2 {
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 50px 35px 10px white;
+}
+
+#modif_div {
+    position: fixed;
+    background-color: tomato;
+    transform: rotate(45deg);
+    right: 0px;
+}

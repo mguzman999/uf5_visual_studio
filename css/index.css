@@ -30,7 +30,7 @@
 #lateralizq {
     background-color: darkblue;
     width: 20%;
-    height: 500px;
+    height: 600px;
     float: left;
 }
 
@@ -66,7 +66,7 @@ a:active {
 #centro {
     background-color: burlywood;
     width: 60%;
-    height: 500px;
+    height: 600px;
     float: left;
 }
 #texto_centro {
@@ -86,7 +86,7 @@ a:active {
 #lateralder {
     background-color: black;
     width: 20%;
-    height: 500px;
+    height: 600px;
     float: right;
 }
 
@@ -94,7 +94,7 @@ a:active {
     width: 180px;
     height: 400px;
     padding-left: 110px;
-    padding-top: 45px;
+    padding-top: 90px;
 }
 
 #piepagina {
