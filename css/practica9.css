@@ -1,0 +1,122 @@
+#rcorner1 {
+    border-radius: 25px;
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorner2 {
+    border-radius: 15px 50px;
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorner3 {
+    border-radius: 100px 20px 150px;
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#rcorner4 {
+    border-radius: 15% 15% 50% 50%;
+    background-color: green;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#p1 {
+    background-color: rgba(65, 0, 170); opacity: 0.8;
+}
+
+#p2 {
+    background-color: rgba(115, 255, 0); opacity: 0.4;
+}
+
+#gradient1 {
+    background-image: linear-gradient(to bottom right,blue, cyan );
+    height: 100px;
+    text-align: center;
+}
+
+#gradient2 {
+    background-image: linear-gradient(to right, red, yellow, orange, purple,blue, green);
+    height: 100px;
+    text-align: left;
+    transform: rotate(15deg) scale(0.5, 0.5)
+}
+
+#sombras {
+    font-size: 100px;
+    width: 150px;
+    text-shadow: 30px 15px 5px red;
+    box-shadow: 5px 10px 3px blueviolet;
+}
+
+#transformar1 {
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(40px, 70px);
+}
+
+#transformar2 {
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: rotate(40deg) translate(20px);
+}
+
+#transformar3 {
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(0.5, 0.75);
+}
+
+#transiciones {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    transition: width 3s, height 2s, background-color 2s, transform 3s;
+}
+
+#transiciones:hover {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transform: rotate(45deg) translate(100px);
+}
+
+#animacion {
+    animation-duration: 4s;
+    animation-name: marcos;
+    position: relative;
+    animation-iteration-count: 3;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+}
+
+@keyframes marcos {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:green; left:200px; top:0px;}
+    50%  {background-color:yellow; left:200px; top:200px;}
+    75%  {background-color:blue; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+#columnas {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dotted;
+    column-rule-color: blue;
+}
