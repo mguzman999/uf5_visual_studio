@@ -1,0 +1,148 @@
+/* encabezado */
+#cabecera {
+    background-color: rgb(85, 84, 84);
+    position: relative;
+    width: 100%;
+}
+
+.same_line {
+    display: inline-block;
+}
+
+#div_logo {
+    width: 20%;
+}
+
+#div_titulo {
+    width: 79%;
+}
+
+nav {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+}
+
+#titulo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    color: white;
+    text-shadow: 8px 3px 3px rgb(94, 0, 94);
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+    box-shadow: 5px 5px 2px;
+    border-radius: 32px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.color_nav {
+    color: azure;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+.color_nav2 {
+    color: blue;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+.hover_nav:hover {
+    color: black;
+}
+
+.hover_nav:visited {
+    color: mediumturquoise;
+}
+
+/* fin encabezado */
+
+/* cuerpo */
+#cuerpo {
+    background: url(img_bckg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* height: 1080px; */
+    /* width: 1903px; */
+    width: 100%;
+    padding-left: 15px;
+}
+
+.format_subtitulos {
+    color: turquoise;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Concert One', cursive;
+}
+
+.format_articles {
+    color: white;
+    font-weight: bold;
+}
+
+.imagen_texto {
+    width: 200px;
+    height: 125px;
+    border-radius: 35px;
+}
+
+.subtitulos {
+    color: turquoise;
+}
+
+/* fin cuerpo */
+
+/* pie pagina */
+footer {
+    /* background-color: sandybrown; */
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom right,sandybrown, rgb(255, 230, 197) );
+}
+
+.redes_sociales {
+    width: 100%;
+    height: 600px;
+    margin-top: 15px;
+}
+
+#copyright {
+    text-align: center;
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#refrescar {
+    color: white;
+}
+
+#animacion {
+    animation-duration: 4s;
+    animation-name: marcos;
+    position: relative;
+    animation-iteration-count: infinite;
+    width: 100px;
+    height: 100px;
+    margin-top: 135px;
+    margin-left: 50px;
+}
+
+@keyframes marcos {
+    0%   {left:0px; top:0px;}
+    25%  {left:300px; top:0px;}
+    50%  {left:300px; top:300px;}
+    75%  {left:0px; top:300px;}
+    100% {left:0px; top:0px;}
+}
+/* fin pie pagina */
+
